@@ -1,0 +1,13 @@
+:root {
+  --primaryColor: #fcfcfc;
+  --secondaryColor: #089da1;
+  --tertiaryColor: #eaeaea;
+
+  --primaryFontColor: #000000;
+  --secondaryFontColor: #ffffff;
+
+  --primaryFont: "Arial", sans-serif;
+  --secondaryFont: "Times New Roman", serif;
+
+  
+}
