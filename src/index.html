@@ -13,6 +13,12 @@
   <body>
     <nav class="navigation-bar">
       <img src="/assets/image/logo.png" alt="Book Store" class="logo" />
+
+      <input type="checkbox" id="alt-nav" class="alt-nav-checkbox" />
+      <label for="alt-nav" class="alt-nav">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
       <ul class="nav-links">
         <li class="nav-link"><a href="#home">Home</a></li>
         <li class="nav-link"><a href="#about">About</a></li>
@@ -21,14 +27,15 @@
         <li class="nav-link"><a href="#reviews">Reviews</a></li>
         <li class="nav-link"><a href="blog">Blog</a></li>
       </ul>
+
       <div class="nav-functions">
-        <div class="ligh-dark">
-            <i class="fa-solid fa-moon"></i>
-            <i class="fa-solid fa-sun"></i>
+        <div class="light-dark">
+          <input type="checkbox" id="theme-toggle" />
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
         </div>
         <i class="fa-solid fa-magnifying-glass"></i>
         <i class="fa-solid fa-heart"></i>
-        <i class="fa-solid fa-bars"></i>
       </div>
     </nav>
     <main class="main-content">
